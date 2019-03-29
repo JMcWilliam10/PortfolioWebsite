@@ -182,6 +182,11 @@ span {
     background-image: linear-gradient(to bottom, #2c73d2, #007ecc, #0086be, #008bad, #008e9b);
   
 }
+.portraitImg{
+    width: 200px;
+    border-radius: 100px;
+    border: 4px solid white;
+}
 
 .flex {
     display: flex;
