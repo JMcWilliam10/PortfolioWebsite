@@ -23,8 +23,21 @@ img {
     width: 100%;
     max-width: 100%;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 /* UNIVERSAL STYLES END */
+
+.resourcesFlexItem{
+    flex: 1;
+}
+.resourcesFlexItem li{
+    padding: 10px;
+}
+
+
+
 /* NAVBAR START */
 .navbar {
     display: flex;
@@ -173,7 +186,10 @@ span {
 .flex {
     display: flex;
 }
-
+.flexResources{
+    display: flex;
+    flex-direction: row;
+}
 .flexNav {
     display: flex;
     justify-content: center;
@@ -377,6 +393,13 @@ aside {
     }
     .heroImage{
         height: calc(100vh - 80px);
+    }
+    .flexResources{
+        flex-direction: column;
+    }
+    .resourcesFlexItem{
+        width: 50%;
+        margin: 0 auto;
     }
 }
 /* MOBILE STYLES END */
