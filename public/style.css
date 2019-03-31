@@ -364,8 +364,12 @@ aside {
     transform: scale(1.5);
 }
 
-.footerBottom {
+.footerBottom{
+    background: black;
     color: white;
+}
+.footerBlack p{
+    margin-top: 0;
 }
 
 /* FOOTER END*/
