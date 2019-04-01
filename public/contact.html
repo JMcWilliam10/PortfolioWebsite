@@ -6,87 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        a[href="contact.html"]{
-                background: white;
-                color: black;
-            }
-        </style>
+        a[href="contact.html"] {
+            background: white;
+            color: black;
+        }
+    </style>
     <style>
         /* Style inputs, select elements and textareas */
-input[type=text], select, textarea, input[type=email]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-}
+        input[type=text],
+        select,
+        textarea,
+        input[type=email] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
 
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
+        /* Style the label to display next to the inputs */
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
 
-/* Style the submit button */
-input[type=submit] {
-  background-color: rgba(76, 175, 79, 0);
-  color: black;
-  padding: 12px 20px;
-  border: 1px solid black;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  font-size: 1rem;
-  font-family: 'Comfortaa', cursive;
-  transition: 0.5s ease;
-}
-input[type=submit]:hover {
-    background: white;
-}
-textarea{
-    margin-bottom: 10px;
-}
+        /* Style the submit button */
+        input[type=submit] {
+            background-color: rgba(76, 175, 79, 0);
+            color: black;
+            padding: 12px 20px;
+            border: 1px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            font-size: 1rem;
+            font-family: 'Comfortaa', cursive;
+            transition: 0.5s ease;
+        }
 
-/* Style the container */
-.container {
-  border-radius: 5px;
-  padding: 20px;
-}
+        input[type=submit]:hover {
+            background: white;
+        }
 
-/* Floating column for labels: 25% width */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
+        textarea {
+            margin-bottom: 10px;
+        }
 
-/* Floating column for inputs: 75% width */
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
+        /* Style the container */
+        .container {
+            border-radius: 5px;
+            padding: 20px;
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        /* Floating column for labels: 25% width */
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}</style>
+        /* Floating column for inputs: 75% width */
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .col-25,
+            .col-75,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -131,7 +140,8 @@ textarea{
                         <label for="subject">Subject</label>
                     </div>
                     <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Write something..." style="height:100px"></textarea>
+                        <textarea id="subject" name="subject" placeholder="Write something..."
+                            style="height:100px"></textarea>
                     </div>
                 </div>
                 <div class="row">
