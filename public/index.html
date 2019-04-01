@@ -21,9 +21,8 @@
 </head>
 
 <body>
-
-    <section class="heroSection">
-        <!-- <div class="navbar">
+<section class="heroSection">
+    <!-- <div class="navbar">
             <a href="index.html">Home</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="resources.html">Dev Resources</a>
@@ -32,18 +31,19 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
             <i class="fa fa-bars"></i>
-        </div> --><div class="topnav navbar" id="myTopnav">
-            <a class='active' href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="resources.html">Dev Resources</a>
-            <a href="blog.html">Blog</a>
-            <a href="skills.html">Skills</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+        </div> -->
+    <div class="topnav navbar" id="myTopnav">
+        <a class='active homeIcon' href="index.html">Jonathan McWilliam</a>
+        <a class='navItem' href="portfolio.html">Portfolio</a>
+        <a href="resources.html">Resources</a>
+        <a href="blog.html">Blog</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="navDisplay()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
         <div class="heroImage">
             <div id="particles-js"></div>
             <div class="container1">
@@ -74,6 +74,8 @@
             $('.flexPortfolio').fadeIn(1000);
         });
     </script>
+    <script src="js/topNav.js"></script>
+    <script src="js/navTextChange.js"></script>
 </body>
 
 </html>
